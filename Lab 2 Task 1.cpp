@@ -4,10 +4,12 @@ using namespace std;
 int main (){
 	int arr[5]={2,4,6,8,10};
 	int *ptr=arr;
-	
+
+	cout<<"Elements of array"<<endl;
 	while(*ptr!='\0'){
 		cout<<*ptr<<endl;
 		ptr++;
 	}
 return 0;
 }
+
