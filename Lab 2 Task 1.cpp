@@ -9,4 +9,5 @@ int main (){
 		cout<<*ptr<<endl;
 		ptr++;
 	}
+return 0;
 }
